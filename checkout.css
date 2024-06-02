@@ -1,0 +1,94 @@
+body{
+    background: rgb(69,120,181);
+background: linear-gradient(0deg, rgba(69,120,181,1) 27%, rgba(255,255,255,1) 100%);
+}
+
+.header{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.header p{
+    color: rgb(184, 184, 184);
+}
+
+
+.my-margin{
+    margin: auto;
+    padding: 0px;
+    
+}
+
+.row {
+    
+}
+.col-md-8 {
+}
+.mb-4 {
+    background-color: rgba(0, 0, 0, 0);
+}
+.my-margin {
+}
+.card.mb-4{
+    margin-bottom: 0px;
+}
+.card {
+    margin-bottom: 0px;
+    background: rgb(69,120,181);
+background: linear-gradient(180deg, rgba(69,120,181,1) 0%, rgba(255,255,255,1) 135%);
+color: white;
+font-size: large;
+}
+.card-header {
+    background-color: rgb(31, 57, 88);
+}
+.py-3 {
+}
+.mb-0 {
+}
+.card-body {
+    margin-bottom: 0px;
+}
+.col {
+    
+}
+.form-outline .mb-4{
+    
+}
+.form-control {
+    
+}
+.form-label {
+    
+}
+.my-4 {
+}
+.form-check {
+}
+.form-check-input {
+    
+}
+.form-check-label {
+}
+.col-3 {
+}
+.dark-blue{
+    color: rgb(31, 57, 88);
+}
+.btn {
+    background-color: rgb(31, 57, 88);
+    color: white;
+    width: 100%;
+    
+}
+.btn:hover{
+    color: rgb(31, 57, 88);
+    border: solid rgb(31, 57, 88) 2px;
+}
+.btn-primary {
+}
+.btn-lg {
+}
+.btn-block {
+}

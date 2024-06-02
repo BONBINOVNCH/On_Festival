@@ -1,0 +1,260 @@
+body{
+    background-image: url("images/Frame 4.png");
+    background-size: cover;
+}
+
+.navbar-wrapper {
+    width: 100vw;
+    top:0px;
+    position: fixed;
+    z-index: 20;
+    
+}
+.navbar-wrapper img{
+   height: 40px;
+}
+.navbar {
+    font-weight: 500;
+    background-color: aqua;
+    padding: 0px;
+}
+.my-nav{
+    background-color: aqua;
+}
+.navbar:scope {
+    font-weight: 500;
+}
+
+.navbar-expand-lg {
+    background-color: none;
+}
+.bg-body-tertiary {
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: rgba(255, 255, 255, 0.818) !important;
+}
+.container-fluid {
+}
+.navbar-brand {
+    padding: 0px;
+}
+.navbar-toggler {
+}
+.navbar-toggler-icon {
+}
+.collapse {
+}
+.navbar-collapse {
+}
+.navbar-nav {
+}
+.nav-link {
+    padding: 20px;
+}
+.nav-link:hover {
+    color: white;
+    background-color: rgb(131, 230, 131);
+}
+.nav-link.active{
+    background-color: rgba(242, 241, 241, 0.574);
+}
+.nav-link.active:hover {
+    color: black;
+    background-color: rgba(242, 241, 241, 0.574);
+}
+.disabled {
+}
+
+
+.header{
+    margin-top: 90px;
+    margin-bottom: 73px;
+    
+}
+
+.header p{
+    color: rgb(184, 184, 184);
+}
+
+
+.list_body {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    
+}
+
+li{
+    position: relative;
+    margin: 2px;
+    padding: 0.5em 0.5em 0.5em 2em;
+    font-size: 14px;
+    
+    
+}
+li::before{
+    content: "";
+    position: absolute;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 0 0.3em 0.25em 0;
+    height: 1em;
+    top: 1.3em;
+    left: 0.6em;
+    margin-top: -11px;
+    transform: rotate(45deg);
+    width: 0.5em;
+}
+
+.card{
+    -webkit-box-shadow: 0px 0px 38px 8px rgba(255,255,255,1);
+-moz-box-shadow: 0px 0px 38px 8px rgba(255,255,255,1);
+box-shadow: 0px 0px 38px 8px rgba(255,255,255,1);
+    color: white;
+    padding: 15px;
+}
+.card-body{
+    position: relative;
+    height: 70vh;
+}
+.card-img-top{
+    
+}
+.card.one{
+    background: rgb(253,198,36);
+    background: linear-gradient(90deg, rgba(253,198,36,1) 49%, rgba(230,196,52,1) 100%);
+}
+.card.two{
+    background: rgb(85,220,231);
+    background: linear-gradient(90deg, rgba(85,220,231,1) 49%, rgba(61,202,212,1) 100%);
+}
+.card.three{
+    background: rgb(191,206,220);
+    background: linear-gradient(90deg, rgba(191,206,220,1) 49%, rgba(147,159,179,1) 100%);
+}
+.button{
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    width: 100%;
+    
+}
+.one .button-card{
+    padding: 10px 40px;
+    border-radius: 60px;
+    background: rgb(253,198,36);
+    background: linear-gradient(90deg, rgba(253,198,36,1) 49%, rgba(230,196,52,1) 100%);
+    color: rgb(255, 255, 255);
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border: solid white 2px;
+    text-align: center;
+}
+.one .button-card:hover{
+    transition: all 0.3s;
+    background: #ffffff;
+    color: rgb(253,198,36);
+}
+.one .button-deteils{
+    padding: 10px 40px;
+    border-radius: 60px;
+    background: rgb(255, 255, 255);
+    color: rgb(253,198,36);
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border: none;
+    text-align: center;
+}
+.one .button-deteils:hover{
+    transition: all 0.3s;
+    background: rgb(253,198,36);
+    color: white;
+    border: solid white 2px;
+}
+
+.two .button-card{
+    padding: 10px 40px;
+    border-radius: 60px;
+    background: rgb(85,220,231);
+    background: linear-gradient(90deg, rgba(85,220,231,1) 49%, rgba(61,202,212,1) 100%);
+    color: rgb(255, 255, 255);
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border: solid white 2px;
+    text-align: center;
+}
+.two .button-card:hover{
+    transition: all 0.3s;
+    background: #ffffff;
+    color: rgb(85,220,231);
+}
+.two .button-deteils{
+    padding: 10px 40px;
+    border-radius: 60px;
+    background: rgb(255, 255, 255);
+    color: rgb(85,220,231);
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border: none;
+    text-align: center;
+}
+.two .button-deteils:hover{
+    transition: all 0.3s;
+    background: rgb(85,220,231);
+    color: white;
+    border: solid white 2px;
+}
+
+.three .button-card{
+    padding: 10px 40px;
+    border-radius: 60px;
+    background: rgb(191,206,220);
+    background: linear-gradient(90deg, rgba(191,206,220,1) 49%, rgba(147,159,179,1) 100%);
+    color: rgb(255, 255, 255);
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border: solid white 2px;
+    text-align: center;
+}
+.three .button-card:hover{
+    transition: all 0.3s;
+    background: #ffffff;
+    color: rgb(191,206,220);
+}
+.three .button-deteils{
+    padding: 10px 40px;
+    border-radius: 60px;
+    background: rgb(255, 255, 255);
+    color: rgb(191,206,220);
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border: none;
+    text-align: center;
+}
+.three .button-deteils:hover{
+    transition: all 0.3s;
+    background: rgb(191,206,220);
+    color: white;
+    border: solid white 2px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.card-footer{
+    margin-top: 20px;
+}
