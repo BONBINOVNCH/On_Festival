@@ -85,7 +85,7 @@ body{
     
 }
 
-li{
+.list_body li{
     position: relative;
     margin: 2px;
     padding: 0.5em 0.5em 0.5em 2em;
@@ -93,7 +93,7 @@ li{
     
     
 }
-li::before{
+.list_body li::before{
     content: "";
     position: absolute;
     border-color: #ffffff;
@@ -257,4 +257,13 @@ a{
 
 .card-footer{
     margin-top: 20px;
+}
+
+.info{
+    --bs-bg-opacity: 1;
+    background-color: rgba(255, 255, 255, 0.818) !important;
+    color:rgb(0, 0, 0);
+    padding: 20px 0px;
+    color: #0000006A;
+    margin-top: 40px;
 }

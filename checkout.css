@@ -3,8 +3,69 @@ body{
 background: linear-gradient(0deg, rgba(69,120,181,1) 27%, rgba(255,255,255,1) 100%);
 }
 
+.navbar-wrapper {
+    width: 100vw;
+    top:0px;
+    position: fixed;
+    z-index: 20;
+    
+}
+.navbar-wrapper img{
+   height: 40px;
+}
+.navbar {
+    font-weight: 500;
+    background-color: aqua;
+    padding: 0px;
+}
+.my-nav{
+    background-color: aqua;
+}
+.navbar:scope {
+    font-weight: 500;
+}
+
+.navbar-expand-lg {
+    background-color: none;
+}
+.bg-body-tertiary {
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: rgba(255, 255, 255, 0.818) !important;
+}
+.container-fluid {
+}
+.navbar-brand {
+    padding: 0px;
+}
+.navbar-toggler {
+}
+.navbar-toggler-icon {
+}
+.collapse {
+}
+.navbar-collapse {
+}
+.navbar-nav {
+}
+.nav-link {
+    padding: 20px;
+}
+.nav-link:hover {
+    color: white;
+    background-color: rgb(131, 230, 131);
+}
+.nav-link.active{
+    background-color: rgba(242, 241, 241, 0.574);
+}
+.nav-link.active:hover {
+    color: black;
+    background-color: rgba(242, 241, 241, 0.574);
+}
+
 .header{
-    margin-top: 30px;
+    margin-top: 90px;
     margin-bottom: 30px;
     
 }
@@ -91,6 +152,12 @@ font-size: large;
 .btn-lg {
 }
 .btn-block {
+}
+
+footer{
+    background-color: rgb(31, 57, 88);
+    color:rgb(255, 253, 253);
+    padding: 20px 0px;
 }
 
 html{
